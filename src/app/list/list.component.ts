@@ -25,7 +25,7 @@ export class ListComponent implements OnInit {
   searchCustomersList = { searchText: '' };
 
   constructor(private service: DataService, private ref: ChangeDetectorRef) {
-    // interval for searchText update
+    // interval for searchText update 
     setInterval(() => {
       this.reload++;
       // require function to pull the customers again based on th filter
